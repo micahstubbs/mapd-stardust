@@ -18,9 +18,9 @@ const defaultQueryOptions = {};
 var connector = new MapdCon();
 
 connector
-  .protocol('http')
-  .host('bewdy.mapd.com')
-  .port('49092')
+  .protocol('https')
+  .host('metis.mapd.com')
+  .port('443')
   .dbName('mapd')
   .user('mapd')
   .password('HyperInteractive')
@@ -33,7 +33,7 @@ connector
       .getTablesAsync()
       .then(data =>
         console.log(
-          'All tables available at bewdy.mapd.com:',
+          'All tables available at metis.mapd.com:',
           data.map(x => x.name)
         )
       )
