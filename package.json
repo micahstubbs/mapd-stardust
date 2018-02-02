@@ -1,0 +1,10 @@
+{
+  "name": "mapd-stardust",
+  "version": "1.0.0",
+  "description": "experiments that combine mapd and stardustjs",
+  "main": "index.js",
+  "repository": "https://github.com/micahstubbs/mapd-stardust",
+  "author": "@micahstubbs",
+  "license": "MIT",
+  "private": false
+}
