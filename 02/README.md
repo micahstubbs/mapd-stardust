@@ -1,4 +1,4 @@
-now let's get the data from mapd-core running locally
+now let's get the data from mapd-core running in the cloud
 
 ---
 
